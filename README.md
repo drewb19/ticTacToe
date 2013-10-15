@@ -1,1 +1,1 @@
-An application for Tic Tac Toe in CS411
+An application for Tic Tac Toe in CS41poopballs1
