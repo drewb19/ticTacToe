@@ -9,7 +9,7 @@ CREATE TABLE ticTacToe.player_Table(
  Email varchar(100) NOT NULL,
  Username varchar(50) NOT NULL,
  Password varchar(64) NOT NULL,
- Player_Rank INT,
+ Player_Rank INT AUTO_INCREMENT,
  Wins INT,
  Losses INT,
  Ties INT);
