@@ -42,7 +42,7 @@ CREATE TABLE ticTacToe.game_Lobby(
  MiddleRight ENUM('none','UID_1', 'UID_2'),
  BottomLeft ENUM('none','UID_1', 'UID_2'),
  BottomCenter ENUM('none','UID_1', 'UID_2'),
- BottomRight ENUM('none','UID_1', 'UID_2'),
+ BottomRight ENUM('none','UID_1', 'UID_2'));
 
 CREATE TABLE ticTacToe.achievements(
  UID INT NOT NULL,
