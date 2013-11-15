@@ -34,13 +34,19 @@ CREATE TABLE ticTacToe.game_Lobby(
  UID_2 INT NOT NULL,
  Username_1 varchar(50) NOT NULL,
  Username_2 varchar(50) NOT NULL,
- TopLeft BIT(2),
- TopCenter BIT(2),
- TopRight BIT(2),
- MiddleLeft BIT(2),
- MiddleCenter BIT(2),
- MiddleRight BIT(2),
- BottomLeft BIT(2),
- BottomCenter BIT(2),
- BottomRight BIT(2));
- 
+ TopLeft ENUM('none','UID_1', 'UID_2'),
+ TopCenter ENUM('none','UID_1', 'UID_2'),
+ TopRight ENUM('none','UID_1', 'UID_2'),
+ MiddleLeft ENUM('none','UID_1', 'UID_2'),
+ MiddleCenter ENUM('none','UID_1', 'UID_2'),
+ MiddleRight ENUM('none','UID_1', 'UID_2'),
+ BottomLeft ENUM('none','UID_1', 'UID_2'),
+ BottomCenter ENUM('none','UID_1', 'UID_2'),
+ BottomRight ENUM('none','UID_1', 'UID_2'),
+
+CREATE TABLE ticTacToe.achievements(
+ UID INT NOT NULL,
+ win_First_Game ENUM('true','false'),
+ lose_First_Game ENUM('true', 'false'),
+ make_First_Friend ENUM('true','false');
+
