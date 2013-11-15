@@ -1,0 +1,87 @@
+/*
+Aaron Gotlieb
+CS 411
+HW 7
+Albany
+note: coordinates taken from previous assignments.
+I do not have paint installed on my computer (mac)
+to test for (X,Y) coordinates so I used previous calculations.
+*/
+
+<style>
+
+  h1{
+    color:orange;
+    text-align:center;
+  }
+  p{
+    font-family:"Arial";
+    font-size:24px;
+    text-align:center;
+  }
+
+  p1{
+    font-family:"Arial";
+    font-size:24px;
+  }
+  p2{
+    font-family:"Arial";
+    font-size:24px;
+    text-align:center;
+    display: block;
+  }
+  IMG.disp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    text-align: center;
+  }
+  div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+</style>
+
+<style>
+
+  h1{
+    color:orange;
+    text-align:center;
+  }
+  p{
+    font-family:"Arial";
+    font-size:24px;
+    text-align:center;
+  }
+
+  p1{
+    font-family:"Arial";
+    font-size:24px;
+  }
+  p2{
+    font-family:"Arial";
+    font-size:24px;
+    text-align:center;
+    display: block;
+  }
+  IMG.disp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    text-align: center;
+  }
+  div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+</style>
