@@ -1,7 +1,19 @@
-$db = mysqli_connect('localhost', 'username', 'password', 'database');
-if($query = mysqli_query($db, "SELECT `header` FROM `data` WHERE `var` = '$foo'")){
-  while($row = mysqli_fetch_assoc($query)){
-    echo $row['header'];
+//<script src="my_jquery.js"></script>
+function createUser()
+{
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
   }
-  mysqli_free_result($query);
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+    //document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+  }
+xmlhttp.open("GET","dbcreate.php",true);
+xmlhttp.send();
 }
