@@ -46,7 +46,8 @@ CREATE TABLE ticTacToe.game_Lobby(
 
 CREATE TABLE ticTacToe.achievements(
  UID INT NOT NULL,
+ PRIMARY KEY(UID),
  win_First_Game ENUM('true','false'),
  lose_First_Game ENUM('true', 'false'),
- make_First_Friend ENUM('true','false');
+ make_First_Friend ENUM('true','false'));
 
